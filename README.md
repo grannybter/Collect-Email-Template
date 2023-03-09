@@ -1,24 +1,26 @@
-[![Screenshot of demo](./public/demo.png)]
+![Screenshot of demo](./public/demo.png)
 
-## Setup
+# Setup
 
-# Create a New Supabase Project
+## Create a New Supabase Project
 
 Create a new supabase project and then run this in a new SQL query:
 
-```CREATE TABLE emails (
+```
+CREATE TABLE emails (
   id SERIAL PRIMARY KEY,
   email TEXT NOT NULL
 );
 ```
 
-# Replace Enviornment Variables
+## Replace Enviornment Variables
 
-Replace `NEXT_PUBLIC_SUPABASE_URL`, and `NEXT_PUBLIC_SUPABASE_ANON_KEY` with their respected keys found in your [API settings](https://app.supabase.com/project/:project-id/settings/api)
+Replace `NEXT_PUBLIC_SUPABASE_URL`, and `NEXT_PUBLIC_SUPABASE_ANON_KEY` with their respected keys found in your [supabase API settings](https://app.supabase.com/project/:project-id/settings/api)
 
-# Install dependencies and run the Next.js client
+## Install dependencies and run the Next.js client
 
-```npm install
+```
+npm install
 npm run dev
 # or
 yarn
