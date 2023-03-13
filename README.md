@@ -4,7 +4,7 @@
 
 ## Create a New Supabase Project
 
-Create a new supabase project and then run this in a new SQL query:
+After you have cloned the project, create a new supabase project and then run this in a new SQL query:
 
 ```
 CREATE TABLE emails (
